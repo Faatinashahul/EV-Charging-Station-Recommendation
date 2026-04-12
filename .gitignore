@@ -1,7 +1,29 @@
+# Virtual environment
 venv/
-__pycache__
-checkpoints/
+env/
+.venv/
+
+# Python cache
 __pycache__/
-/__pycache__
 *.pyc
+
+# System files
 .DS_Store
+
+# Model / output folders
+checkpoints/
+results/
+
+# Environment variables
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Build files
+dist/
+build/
+*.egg-info/
+
+# VS Code (optional)
+.vscode/
